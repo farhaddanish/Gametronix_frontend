@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+
 /* 
 ---------------------------------------------
 reset
@@ -125,6 +126,7 @@ a {
     color: #ccc;
     text-decoration: none !important;
 }
+
 a:hover {
     color: #f99;
 }
@@ -660,6 +662,7 @@ Header Style
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .header-area .main-nav:before {
         display: none;
     }
@@ -669,38 +672,47 @@ Header Style
     .header-area {
         top: 0;
     }
+
     .header-area .main-nav {
         background-color: transparent;
         border-radius: 0px;
     }
+
     .header-area .main-nav .nav {
         height: auto;
         flex-basis: 100%;
     }
+
     .header-area .main-nav .logo {
         position: absolute;
         left: 30px;
         top: 15px;
     }
+
     .background-header .main-nav .logo {
         top: 0px;
     }
+
     .background-header .main-nav .border-button {
         top: 0px !important;
     }
+
     .header-area .main-nav .border-button {
         position: absolute;
         top: 15px;
         right: 70px;
     }
+
     .header-area.header-sticky .nav li a:hover,
     .header-area.header-sticky .nav li a.active {
         color: #e75e8d !important;
         opacity: 1;
     }
+
     .header-area.header-sticky .nav li.search-icon a {
         width: 100%;
     }
+
     .header-area {
         background-color: #1f2122;
         padding: 0px 15px;
@@ -708,18 +720,23 @@ Header Style
         box-shadow: none;
         text-align: center;
     }
+
     .header-area .container {
         padding: 0px;
     }
+
     .header-area .logo {
         margin-left: 0px;
     }
+
     .header-area .menu-trigger {
         display: block !important;
     }
+
     .header-area .main-nav {
         overflow: hidden;
     }
+
     .header-area .main-nav .nav {
         float: none;
         width: 100%;
@@ -730,16 +747,20 @@ Header Style
         transition: all 0s ease 0s;
         margin-left: 0px;
     }
+
     .header-area.header-sticky .nav {
         margin-top: 65px !important;
         text-align: center;
     }
+
     .background-header.header-sticky .nav {
         margin-top: 70px !important;
     }
+
     .header-area .main-nav .nav li:first-child {
         border-top: 1px solid #eee;
     }
+
     .header-area .main-nav .nav li {
         width: 100%;
         background: #fff;
@@ -747,6 +768,7 @@ Header Style
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+
     .header-area .main-nav .nav li a {
         height: 50px !important;
         line-height: 50px !important;
@@ -755,17 +777,21 @@ Header Style
         background: #fff !important;
         color: #1e1e1e !important;
     }
+
     .header-area .main-nav .nav li a:hover {
         background: #fff !important;
         color: #e75e8d !important;
     }
+
     .header-area .main-nav .nav li:last-child a img {
         display: none;
     }
+
     .header-area .main-nav .nav li:last-child a:hover {
         color: #ec6090 !important;
         background-color: transparent !important;
     }
+
     .header-area .main-nav .nav li.has-sub ul.sub-menu {
         position: relative;
         visibility: inherit;
@@ -778,22 +804,27 @@ Header Style
         height: 0px;
         transition: all 0s;
     }
+
     .header-area .main-nav .nav li.submenu ul li a {
         font-size: 12px;
         font-weight: 400;
     }
+
     .header-area .main-nav .nav li.submenu ul li a:hover:before {
         width: 0px;
     }
+
     .header-area .main-nav .nav li.has-sub ul.sub-menu {
         height: auto;
     }
+
     .header-area .main-nav .nav li.has-sub:after {
         color: #3b566e;
         right: 30px;
         font-size: 14px;
         top: 15px;
     }
+
     .header-area .main-nav .nav li.submenu:hover ul,
     .header-area .main-nav .nav li.submenu:focus ul {
         height: 0px;
@@ -831,6 +862,13 @@ Banner Style
 .main-banner h4 em {
     font-style: normal;
     color: #ec6090;
+}
+
+
+
+.payment-title {
+    color: #666;
+    font-size: 14px;
 }
 
 .card {
@@ -952,6 +990,7 @@ Banner Style
 .free-button {
     border-color: #e75e8d;
 }
+
 .free-button:focus {
     border-color: #ec6090;
     background-color: #ec6090;
@@ -959,13 +998,49 @@ Banner Style
 }
 
 .btn:focus {
-    outline: none; /* Remove default focus outline */
+    outline: none;
+    /* Remove default focus outline */
     box-shadow: inset 1px 0px 20px 4px rgba(0, 0, 0, 0.3);
 }
+
 .btn:hover {
     border-color: #ec6090 !important;
     background-color: #ec6090;
     outline: 0;
+}
+
+
+
+
+/* 
+---------------------------------------------
+Start Stream Style
+--------------------------------------------- 
+*/
+
+.start-stream .heading-section {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.start-stream .item {
+    padding: 30px;
+    border: 1px solid #444;
+    border-radius: 23px;
+    margin-top: 10px;
+}
+
+.start-stream .item h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.start-stream .main-button {
+    text-align: center;
+    margin-top: 30px;
 }
 
 /* 
